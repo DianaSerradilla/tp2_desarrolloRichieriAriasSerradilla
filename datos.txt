@@ -5,5 +5,5 @@ Alumnos:
 
 Maquetado y Desarrollo Web - DMN2AV-  Turno Noche 2023
 
-Link web: 
-Link repo: 
+Link web: https://tp2ariasrichieriserradilla.netlify.app/
+Link repo: https://github.com/DianaSerradilla/tp2_desarrolloRichieriAriasSerradilla
