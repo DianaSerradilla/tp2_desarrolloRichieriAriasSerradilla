@@ -1,0 +1,667 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  position: relative;
+}
+
+#logo_sanamente {
+  font-size: 0;
+  background: url("../icons/logo.svg") no-repeat center center;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 8px;
+  left: 0.75rem;
+  z-index: 10;
+}
+
+#titulo_qsomos {
+  color: #3b5249;
+}
+
+#parrafo_qsomos {
+  color: #aeaeae;
+}
+
+#container-textosqsomos{
+   border-bottom: 1px solid #d1d1d1;
+     padding-bottom: 6rem;
+}
+
+.pasos_qsomos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(59, 82, 73, 0.15);
+  width: 90%;
+  margin-bottom: 1.5rem;
+}
+
+#container_entrenador{
+   background: #eeeae7;
+    padding: 5rem;
+}
+
+#titulo_entrenador {
+  color: #171717;
+  width: 100%;
+    font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+
+ #parrafo_entrenador {
+  color: #6d6d6d;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.18px;
+  }
+
+  #boton_entrenador a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #483b3b;
+  color: white;
+  padding: .7rem;
+  width: 10rem;
+  margin-top: 1rem;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  transition: all 0.2s;
+  font-size: 0.9rem;
+}
+
+#boton_entrenador a:hover {
+  background: #766161;
+}
+
+#boton_entrenador a::after {
+  content: url(../icons/arrow.svg);
+  vertical-align: middle;
+  padding-left: 0.3rem;
+}
+
+
+#titulo_programa {
+  color: #171717;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+
+.container_pastilla{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+
+.titulo_pastilla {
+  color: #171717;
+  text-align: center;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  align-self: stretch;
+}
+
+.texto_pastillas {
+  color: #6d6d6d;
+  text-align: center;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+}
+
+.btn-primary{
+  background-color: #3b5249;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover{
+  background-color: #202d28;
+}
+#container_entrenamientos {
+  background: #f4f3f2;
+  padding: 3.3rem;
+}
+
+#figure_entrenamiento {
+  margin: auto;
+  line-height: 0;
+  width: calc(100vw - 8rem);
+  height: calc((100vw - 8rem) * 272 / 640);
+  max-width: 640px;
+  max-height: 272px;
+}
+
+#figure_entrenamiento iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#titulo_entenamiento {
+  color: #171717;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+#parrafo_entrenamiento {
+  color: #171717;
+ font-size: 0.9rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.18px;
+
+}
+
+
+#boton_eaprender a {
+  display: flex;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  border-radius: 32px;
+  background: #3b5249;
+  color: white;
+  width: max-content;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+#boton_eaprender a:hover {
+  background: #547568;
+}
+
+#boton_eentrenador a {
+  font-size: 0.9rem;
+  display: flex;
+  color: #3b5249;
+  padding: 0.7rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  border-radius: 32px;
+  outline: 1px solid #3b5249;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+}
+
+#boton_eentrenador a::after {
+  content: url(../icons/arrow-g.svg);
+  vertical-align: middle;
+  padding-left: 0.3rem;
+}
+
+#fecha_articulo {
+  color: #6d6d6d;
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.18px;
+}
+
+#span_titulo {
+  font-weight: 600;
+}
+
+#figure_articulo img, #figure2_articulo img{
+  width: 100%;
+  height: 100%;
+}
+
+#figure_articulo figcaption {
+  color: #6d6d6d;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.18px;
+  text-align: center;
+}
+
+.tags_articulo {
+  border-radius: 5px;
+  background: #f4f3f2;
+  padding: 0.8rem;
+  width: max-content;
+  font-size: .8rem;
+  margin-right: 1rem;
+}
+
+.titulo_parrafo {
+  flex-shrink: 1;
+  color: #1f1f1f;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.36px;
+}
+
+.parrafos_articulo {
+  color: #6d6d6d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+}
+
+#cita_articulo {
+  color: #454545;
+  font-size: .9rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+  text-align: center;
+}
+
+#parrafo1_articulo::first-letter {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #171717;
+}
+
+.boton_redes {
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  outline: 1px solid #3b5249;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#titulo_centro {
+  color: #3b5249;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+ 
+
+#galeria {
+  line-height: 0;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+#galeria img {
+  max-width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#container_pfrecuentes{
+  margin-top: 4rem;
+}
+
+#titulo_pfrecuentes {
+  color: #3b5249;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+#boton_pfrecuentes a {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 32px;
+  background: #3b5249;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  width: max-content;
+  margin-top: 2rem;
+  color: white;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  font-size: 0.9rem;
+}
+
+#boton_pfrecuentes a:hover {
+  background: #547568;
+}
+
+ .preguntaf {
+  border-bottom: 1px solid #3b5249;
+  width: 90%;
+  padding-bottom: 1rem;
+  color: #3b5249;
+}
+
+.preguntaf::after {
+  content: url(../icons/arrow-g.svg);
+  vertical-align: middle;
+  padding-left: 0.3rem;
+}
+
+
+#mapa {
+  margin: auto;
+  line-height: 0;
+  width: 100%;
+  height: 20rem;
+  margin: auto;
+}
+
+#mapa iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#contacto{
+  margin-top: 5rem;
+}
+
+#titulo_contacto {
+  margin-top: 4rem;
+  color: #3b5249;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+
+#texto_contacto {
+  color: #6d6d6d;
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+}
+
+.input_formulario {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.textArea_formulario {
+  width: 90%;
+  border: 1px solid #e7e7e7;
+  height: 10rem;
+}
+
+.contacto_label {
+  color: #3b5249;
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+#contacto_boton {
+  border-radius: 32px;
+  background: #3b5249;
+  color: white;
+  display: flex;
+  padding: 0.7rem 0.9rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  font-size: 0.9rem;
+}
+
+#contacto_boton:hover {
+  background-color: #547568;
+}
+
+#container_socios{
+  margin-top: 5rem;
+  background: #526860;
+}
+
+#titulo-socios {
+  color: white;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 3rem;
+}
+
+.figure_socios {
+  width: 10rem;
+}
+
+
+.figure_socios img{
+  width: 100%;
+  height: 100%;
+}
+
+#footer {
+  background: #3b5249;
+}
+
+
+#container_footer {
+  padding: 2rem;
+  margin: auto;
+}
+
+#alumnos_footer  {
+  color: rgba(255, 255, 255, 0.906);
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+
+}
+
+
+.figure-alumnos{
+  width: 100%;
+  height: 15rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.figure-alumnos img{
+    border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#titulo_equipoF {
+  color: #fff;
+  font-size: .9rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.titulo_infoE {
+  color: #fff;
+  font-size: .9rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+}
+
+.informacionE {
+  color: rgba(255, 255, 255, 0.34);
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+}
+
+#cgeneral_copy {
+  background: #526860;
+}
+
+#copy {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+}
+
+#terminos a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.16px;
+}
+
+@media screen and (max-width: 991px) {
+  #logo_sanamente {
+    left: calc(50% - 20px);
+  }
+}
+
+
+@media screen and (max-width: 325px) {
+
+  #container_entrenador{
+    padding: 2rem;
+  }
+
+  #boton_entrenador a{
+    width: 100%;
+  }
+  #container_entrenamientos{
+    padding: 1rem;
+  }
+  #botones_entrenamiento {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #boton_eentrenador, #boton_eaprender a{
+    width: 100%;
+  }
+}
+
+
+@media screen and  (min-width: 992px) {
+  #container-textosqsomos {
+    border: none;
+  }
+
+  #container_entrenador{
+    background: url(../img/coach.png) no-repeat center center;
+  background-size: cover;
+  }
+
+  #container_Etexto{
+    width: 60%;
+  }
+
+  #parrafo_entrenamiento{
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  .contenedor_beneficios{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 3rem;
+  }
+
+  .parrafos_articulo_beneficios{
+    width: 75%;
+  }
+
+  .titulo_parrafo_beneficio{
+    width: 30%;
+  }
+
+
+  #informacion_contacto{
+    width: 30%;
+  }
+
+  .aside_form{
+    width: 50%;
+  }
+}
