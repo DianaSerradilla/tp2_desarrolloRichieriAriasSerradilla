@@ -438,9 +438,18 @@
           <input type="email" id="email" name="email" required class="input_formulario">
           <label for="mensaje" class="contacto_label">Mensaje:</label>
           <textarea id="mensaje" name="mensaje" cols="10" rows="4" required class="textArea_formulario"></textarea>
-          <input type="submit" value="Enviar consulta" id="contacto_boton">
+          <input type="submit" value="Enviar consulta" id="contacto_boton"  data-bs-toggle="modal" data-bs-target="#exampleModal">
         </form>
-      </aside>
+              
+        <div class="card" id="gracias">
+          <div class="card-body d-flex flex-column justify-content-center">
+            <h5 class="card-title">¡Gracias por comunicarte!</h5>
+            <p class="card-text">Valoramos tu contacto y te responderemos pronto.
+            </p>
+            <a href="#" class="btn btn-primary">Cerrar</a>
+          </div>
+        </div>
+              </aside>
     </div>
   </section>
 
@@ -584,10 +593,10 @@
   </footer>
 
 
-  <script src="assets/js/animaScroll.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"></script>
+  <script src="assets/js/animaScroll.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
   <script>
     Fancybox.bind('[data-fancybox="galeria"]', {

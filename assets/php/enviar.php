@@ -1,7 +1,7 @@
 <?php
 $enviaPara = 'diana.serradilla@davinci.edu.ar';
 $subject = 'Contacto Trabajo';
-// $enviado="../ejercicio_10.html#gracias";
+$enviado="../../index.html#gracias";
 
 $mensaje = '';
 $primero = true;

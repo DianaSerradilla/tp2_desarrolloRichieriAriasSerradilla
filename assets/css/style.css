@@ -39,9 +39,9 @@ a {
   color: #aeaeae;
 }
 
-#container-textosqsomos{
-   border-bottom: 1px solid #d1d1d1;
-     padding-bottom: 6rem;
+#container-textosqsomos {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 6rem;
 }
 
 .pasos_qsomos {
@@ -53,22 +53,21 @@ a {
   margin-bottom: 1.5rem;
 }
 
-#container_entrenador{
-   background: #eeeae7;
-    padding: 5rem;
+#container_entrenador {
+  background: #eeeae7;
+  padding: 5rem;
 }
 
 #titulo_entrenador {
   color: #171717;
   width: 100%;
-    font-size: 1.5rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
 }
 
-
- #parrafo_entrenador {
+#parrafo_entrenador {
   color: #6d6d6d;
   font-family: Inter;
   font-size: 1rem;
@@ -76,16 +75,16 @@ a {
   font-weight: 400;
   line-height: 140%;
   letter-spacing: -0.18px;
-  }
+}
 
-  #boton_entrenador a {
+#boton_entrenador a {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 32px;
   background: #483b3b;
   color: white;
-  padding: .7rem;
+  padding: 0.7rem;
   width: 10rem;
   margin-top: 1rem;
   -webkit-border-radius: 32px;
@@ -106,7 +105,6 @@ a {
   padding-left: 0.3rem;
 }
 
-
 #titulo_programa {
   color: #171717;
   text-align: center;
@@ -116,15 +114,13 @@ a {
   line-height: 130%;
 }
 
-
-.container_pastilla{
+.container_pastilla {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
 }
-
 
 .titulo_pastilla {
   color: #171717;
@@ -146,13 +142,13 @@ a {
   letter-spacing: -0.16px;
 }
 
-.btn-primary{
+.btn-primary {
   background-color: #3b5249;
   color: white;
   border: none;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #202d28;
 }
 #container_entrenamientos {
@@ -186,15 +182,13 @@ a {
 
 #parrafo_entrenamiento {
   color: #171717;
- font-size: 0.9rem;
+  font-size: 0.9rem;
   text-align: center;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
   letter-spacing: -0.18px;
-
 }
-
 
 #boton_eaprender a {
   display: flex;
@@ -238,7 +232,7 @@ a {
 
 #fecha_articulo {
   color: #6d6d6d;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
@@ -249,7 +243,8 @@ a {
   font-weight: 600;
 }
 
-#figure_articulo img, #figure2_articulo img{
+#figure_articulo img,
+#figure2_articulo img {
   width: 100%;
   height: 100%;
 }
@@ -269,7 +264,7 @@ a {
   background: #f4f3f2;
   padding: 0.8rem;
   width: max-content;
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin-right: 1rem;
 }
 
@@ -294,7 +289,7 @@ a {
 
 #cita_articulo {
   color: #454545;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-style: italic;
   font-weight: 600;
   line-height: 140%;
@@ -333,8 +328,6 @@ a {
   margin-bottom: 2rem;
 }
 
- 
-
 #galeria {
   line-height: 0;
   padding: 1.25rem;
@@ -352,7 +345,7 @@ a {
   -o-border-radius: 10px;
 }
 
-#container_pfrecuentes{
+#container_pfrecuentes {
   margin-top: 4rem;
 }
 
@@ -391,7 +384,7 @@ a {
   background: #547568;
 }
 
- .preguntaf {
+.preguntaf {
   border-bottom: 1px solid #3b5249;
   width: 90%;
   padding-bottom: 1rem;
@@ -403,7 +396,6 @@ a {
   vertical-align: middle;
   padding-left: 0.3rem;
 }
-
 
 #mapa {
   margin: auto;
@@ -419,7 +411,7 @@ a {
   height: 100%;
 }
 
-#contacto{
+#contacto {
   margin-top: 5rem;
 }
 
@@ -432,10 +424,9 @@ a {
   line-height: 130%;
 }
 
-
 #texto_contacto {
   color: #6d6d6d;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
@@ -479,11 +470,30 @@ a {
   font-size: 0.9rem;
 }
 
+#gracias {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -20%);
+  padding: 20px;
+  z-index: 500;
+  max-width: 90%;
+  -webkit-transform: translate(-50%, -20%);
+  -moz-transform: translate(-50%, -20%);
+  -ms-transform: translate(-50%, -20%);
+  -o-transform: translate(-50%, -20%);
+}
+
+#gracias:target {
+  display: flex;
+}
+
 #contacto_boton:hover {
   background-color: #547568;
 }
 
-#container_socios{
+#container_socios {
   margin-top: 5rem;
   background: #526860;
 }
@@ -501,8 +511,7 @@ a {
   width: 10rem;
 }
 
-
-.figure_socios img{
+.figure_socios img {
   width: 100%;
   height: 100%;
 }
@@ -511,24 +520,21 @@ a {
   background: #3b5249;
 }
 
-
 #container_footer {
   padding: 2rem;
   margin: auto;
 }
 
-#alumnos_footer  {
+#alumnos_footer {
   color: rgba(255, 255, 255, 0.906);
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
   letter-spacing: -0.16px;
-
 }
 
-
-.figure-alumnos{
+.figure-alumnos {
   width: 100%;
   height: 15rem;
   border-radius: 10px;
@@ -538,15 +544,15 @@ a {
   -o-border-radius: 10px;
 }
 
-.figure-alumnos img{
-    border-radius: 10px;
+.figure-alumnos img {
+  border-radius: 10px;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 #titulo_equipoF {
   color: #fff;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
@@ -554,7 +560,7 @@ a {
 
 .titulo_infoE {
   color: #fff;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 500;
   line-height: 140%;
@@ -592,23 +598,22 @@ a {
   letter-spacing: -0.16px;
 }
 
+
 @media screen and (max-width: 991px) {
   #logo_sanamente {
     left: calc(50% - 20px);
   }
 }
 
-
 @media screen and (max-width: 325px) {
-
-  #container_entrenador{
+  #container_entrenador {
     padding: 2rem;
   }
 
-  #boton_entrenador a{
+  #boton_entrenador a {
     width: 100%;
   }
-  #container_entrenamientos{
+  #container_entrenamientos {
     padding: 1rem;
   }
   #botones_entrenamiento {
@@ -616,52 +621,51 @@ a {
     width: 100%;
   }
 
-  #boton_eentrenador, #boton_eaprender a{
+  #boton_eentrenador,
+  #boton_eaprender a {
     width: 100%;
   }
 }
 
-
-@media screen and  (min-width: 992px) {
+@media screen and (min-width: 992px) {
   #container-textosqsomos {
     border: none;
   }
 
-  #container_entrenador{
+  #container_entrenador {
     background: url(../img/coach.png) no-repeat center center;
-  background-size: cover;
+    background-size: cover;
   }
 
-  #container_Etexto{
+  #container_Etexto {
     width: 60%;
   }
 
-  #parrafo_entrenamiento{
+  #parrafo_entrenamiento {
     width: 80%;
     font-size: 1rem;
   }
 
-  .contenedor_beneficios{
+  .contenedor_beneficios {
     display: flex;
     justify-content: space-between;
     align-items: start;
     gap: 3rem;
   }
 
-  .parrafos_articulo_beneficios{
+  .parrafos_articulo_beneficios {
     width: 75%;
   }
 
-  .titulo_parrafo_beneficio{
+  .titulo_parrafo_beneficio {
     width: 30%;
   }
 
-
-  #informacion_contacto{
+  #informacion_contacto {
     width: 30%;
   }
 
-  .aside_form{
+  .aside_form {
     width: 50%;
   }
 }
