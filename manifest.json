@@ -1,0 +1,50 @@
+{
+  "name": "SanaMente",
+  "background_color": "#eeeae7",
+  "description": "SanaMente simplifica tu bienestar al gestionar turnos de gimnasio y ofrecer sesiones en vivo con entrenadores, todo en una única aplicación.",
+  "dir": "ltr",
+  "display": "standalone",
+  "lang": "es",
+  "orientation": "portrait",
+  "id": "/sanamentepwa",
+  "start_url": "/",
+  "theme_color": "#eeeae7",
+  "icons": [
+    {
+      "src": "assets/icons_marca/android-icon-36x36.png",
+      "sizes": "36x36",
+      "type": "image\/png",
+      "density": "0.75"
+    },
+    {
+      "src": "assets/icons_marca/android-icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image\/png",
+      "density": "1.0"
+    },
+    {
+      "src": "assets/icons_marca/android-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image\/png",
+      "density": "1.5"
+    },
+    {
+      "src": "assets/icons_marca/android-icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image\/png",
+      "density": "2.0"
+    },
+    {
+      "src": "assets/icons_marca/android-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image\/png",
+      "density": "3.0"
+    },
+    {
+      "src": "assets/icons_marca/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image\/png",
+      "density": "4.0"
+    }
+  ]
+}
